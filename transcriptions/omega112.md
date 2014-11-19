@@ -1,3 +1,26 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-stylesheet type="text/css" href="../../css/tei-iliad.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Paraphrase</title>
+               
+            </titleStmt>
+            <publicationStmt>
+                <p></p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Edited directly from photography of the manuscript</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="15">
 Omega 1.12
 
 127r
@@ -801,4 +824,7 @@ http://www.homermultitext.org/hmt-digital/images?request=GetIIPMooViewer&urn=urn
 <l n=729>σὺν πυρὶ καυστικῶ εἰς χάριν τοῦ ἕκτορος παρορμῶντος,</l>
 <l n=730>τοῦτοιν ὁ αἴας ἐτίτρωσκε παρομῶν τῶ ὁξεῖ σιδήρωι</l>
 
-
+     </div>
+        </body>
+    </text>
+</TEI>
