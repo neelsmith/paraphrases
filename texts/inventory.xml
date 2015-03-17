@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts" tiversion="5.0.rc.1">
+    <ctsnamespace
+        abbr="greekLit"
+        ns="http://chs.harvard.edu/">
+        <description
+            xml:lang="eng">The CHS inventory of Greek literary texts</description>
+    </ctsnamespace>
+    
+    <textgroup urn="urn:cts:greekLit:tlg2702:">
+        <groupname xml:lang="eng">Michael Psellos</groupname>
+        <work urn="urn:cts:greekLit:tlg2702.hmt01:" xml:lang="grc">
+            <title xml:lang="eng">Paraphrase of the Iliad</title>
+            <edition urn="urn:cts:greekLit:tlg2702.hmt01.omega112:">
+                <label xml:lang="eng">Omega 1.12</label>
+                <description xml:lang="eng">Version from the Escorial MS Omega 1.12</description>
+                <online docname="omega112.xml">
+                    <namespaceMapping
+                        abbreviation="tei"
+                        nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citation
+                        label="book"
+                        scope="/tei:TEI/tei:text/tei:body"
+                        xpath="/tei:div[@n = '?']">
+                        <citation
+                            label="line"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                            xpath="/tei:l[@n = '?']"/>
+                    </citation>
+                </online>
+               
+            </edition>
+           
+        </work>
+    </textgroup>
+</TextInventory>
