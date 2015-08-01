@@ -25,7 +25,7 @@
                 <description
                     xml:lang="eng">Version from the Escorial MS Omega 1.12</description>
                 <online
-                    docname="omega112.xml">
+                    docname="texts/omega112.xml">
                     <namespaceMapping
                         abbreviation="tei"
                         nsURI="http://www.tei-c.org/ns/1.0"/>
@@ -48,7 +48,7 @@
                     xml:lang="eng">Marciana 841</label>
                 <description
                     xml:lang="eng">Version of the text in the MS Marciana 841</description>
-                <online docname="marciana841.xml">
+                <online docname="texts/marciana841.xml">
                     <namespaceMapping
                         abbreviation="tei"
                         nsURI="http://www.tei-c.org/ns/1.0"/>

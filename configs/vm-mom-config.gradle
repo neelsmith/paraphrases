@@ -1,0 +1,29 @@
+project.ext {
+
+  textInventory="/vagrant/paraphrases/editions/inventory.xml"
+  textArchive="/vagrant/paraphrases/editions"
+  invSchema="/vagrant/paraphrases/editions/schemas/TextInventory.rng"
+
+    // Lists of index files to use in verification:
+    folioToImage = "/vagrant/paraphrases/indices/venA-folioToImage.csv"
+
+    textToImage = "/vagrant/paraphrases/indices/venA-textToImage-Iliad.csv"
+    textToFolio = "/vagrant/paraphrases/indices/venA-textToFolio-Iliad.csv"
+
+    scholiaInventories = "/vagrant/paraphrases/collections/venA-exterior.csv,/vagrant/paraphrases/collections/venA-intermarginal.csv,/vagrant/paraphrases/collections/venA-interior.csv,/vagrant/paraphrases/collections/venA-mainScholia.csv,/vagrant/paraphrases/collections/venA-interlinear.csv"
+
+    codexModel = "/vagrant/paraphrases/collections/codexModels/venetusA.csv"
+
+
+
+    //   For concordion:
+   mdSrc = "specs/md"
+    
+    htmlPreface = """
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<body>
+    """
+    htmlEnd = "</body>\n</html>\n"
+
+    tokenMap = [    "openex": "<div class='example'>", "closeex" : "</div>"]      
+}
