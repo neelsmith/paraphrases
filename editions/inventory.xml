@@ -9,6 +9,34 @@
         <description
             xml:lang="eng">The CHS inventory of Greek literary texts</description>
     </ctsnamespace>
+    
+    <textgroup urn="urn:cts:greekLit:tlg1168:">
+        <groupname xml:lang="eng">Apollonius the Sophist</groupname>
+        <work urn="urn:cts:greekLit:tlg1168.tlg001:" xml:lang="grc">
+            <title xml:lang="eng">Homeric lexicon</title>
+            <edition urn="urn:cts:greekLit:tlg1168.tlg001.bekker:">
+                <label xml:lang="eng">Digital version of Bekker's edition</label>
+                <online
+                    docname="texts/omega112.xml">
+                    <namespaceMapping
+                        abbreviation="tei"
+                        nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation
+                            label="book"
+                            scope="/tei:TEI/tei:text/tei:body"
+                            xpath="/tei:div[@n = '?']">
+                            <citation
+                                label="line"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                                xpath="/tei:div[@n = '?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                
+            </edition>
+        </work>
+    </textgroup>
     <textgroup
         urn="urn:cts:greekLit:tlg2702:">
         <groupname
