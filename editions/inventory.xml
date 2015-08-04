@@ -9,7 +9,25 @@
         <description
             xml:lang="eng">The CHS inventory of Greek literary texts</description>
     </ctsnamespace>
-    
+    <textgroup urn="urn:cts:greekLit:tlg0012:">
+        <groupname xml:lang="eng">Homeric poetry</groupname>
+        <work urn="urn:cts:greekLit:tlg0012.tlg001:" xml:lang="grc">
+            <title xml:lang="eng">Iliad</title>
+            <edition urn="urn:cts:greekLit:tlg0012.tlg001.allen:">
+                <label xml:lang="eng">P.D. edition by Allen</label>
+                <online docname="texts/allen-iliad.xml">
+                    
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+                            <citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                                xpath="/tei:l[@n = '?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
     <textgroup urn="urn:cts:greekLit:tlg1168:">
         <groupname xml:lang="eng">Apollonius the Sophist</groupname>
         <work urn="urn:cts:greekLit:tlg1168.tlg001:" xml:lang="grc">
