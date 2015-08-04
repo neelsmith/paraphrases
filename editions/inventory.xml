@@ -17,7 +17,7 @@
             <edition urn="urn:cts:greekLit:tlg1168.tlg001.bekker:">
                 <label xml:lang="eng">Digital version of Bekker's edition</label>
                 <online
-                    docname="texts/omega112.xml">
+                    docname="texts/apsoph_bekker.xml">
                     <namespaceMapping
                         abbreviation="tei"
                         nsURI="http://www.tei-c.org/ns/1.0"/>
