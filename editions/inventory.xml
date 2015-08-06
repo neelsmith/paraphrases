@@ -28,6 +28,8 @@
             </edition>
         </work>
     </textgroup>
+    
+    
     <textgroup urn="urn:cts:greekLit:tlg1168:">
         <groupname xml:lang="eng">Apollonius the Sophist</groupname>
         <work urn="urn:cts:greekLit:tlg1168.tlg001:" xml:lang="grc">
@@ -110,6 +112,33 @@
                     </citation>
                 </citationMapping></online>
             </edition>
+      
+        
+        
+            <edition
+                urn="urn:cts:greekLit:tlg2702.hmt01.venA:">
+                <label
+                    xml:lang="eng">Venetus A</label>
+                <description
+                    xml:lang="eng">Version of the text in the Venetus A MS</description>
+                <online docname="texts/venetusA.xml">
+                    <namespaceMapping
+                        abbreviation="tei"
+                        nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation
+                            label="book"
+                            scope="/tei:TEI/tei:text/tei:body"
+                            xpath="/tei:div[@n = '?']">
+                            <citation
+                                label="line"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                                xpath="/tei:l[@n = '?']"/>
+                        </citation>
+                    </citationMapping></online>
+            </edition>
+            
         </work>
     </textgroup>
+    
 </TextInventory>
