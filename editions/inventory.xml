@@ -108,7 +108,12 @@
                         <citation
                             label="line"
                             scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                            xpath="/tei:div[@n = '?']"/>
+                            xpath="/tei:div[@n = '?']">
+                            <citation
+                                label="line"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"
+                                xpath="/tei:ab[@n = '?']" />
+                        </citation>
                     </citation>
                 </citationMapping></online>
             </edition>
